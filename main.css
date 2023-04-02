@@ -30,11 +30,11 @@ h1, h2 {
   margin: 1.5rem;
   margin-top: 2.0rem;
 }
+
 p {
-  margin-left:150px;
+  margin:auto;
   font-size: small;
-  width: 80%%;
-  margin-top:0px;
+  width: 50%%;
 }
 
 .bold p{
@@ -43,6 +43,7 @@ font-weight: 900;
 
 .consulting{
   margin-top:150px;
+  text-align:center;
 }
 
 .txt{
@@ -152,6 +153,18 @@ h2 a:hover {
   */
 a.active-page
   {
-    background-color:yellow;
+    /*background-color:lightgray;/*/
+    font-weight: 900;
   }
- 
+
+ .image-container2
+ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+ }
+  .logos {
+    max-width: 50%;
+    object-fit: contain;
+  }
